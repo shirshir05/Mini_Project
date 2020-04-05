@@ -1,7 +1,7 @@
 package Business_Layer.Trace;
 
-public class PlayerPersonalPage {
-    protected PlayerPersonalPage(String page_name){
-        super();
+public class PlayerPersonalPage extends PersonalPage {
+    public PlayerPersonalPage(String name){
+        super(name);
     }
 }
