@@ -4,7 +4,7 @@ public class LogAndExitController extends LogicManagement{
 
 
     public String Registration(String arg_user_name, String arg_password, String role){
-        if(arg_user_name == null || arg_password == null || arg_user_name == "" ||  arg_password == ""){
+        if(arg_user_name == null || arg_password == null || arg_user_name.equals("") || arg_password.equals("")){
             return "The input is empty.";
         }
         if(arg_password.length() != 5){
@@ -15,6 +15,7 @@ public class LogAndExitController extends LogicManagement{
             if (contain_subscription(arg_user_name)){
                 return "Please select another username because this username exists in the system.";
             }
+
 
         }catch (Exception e){
             return "The password must contain only digits.";

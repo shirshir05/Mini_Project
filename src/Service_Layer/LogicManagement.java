@@ -22,13 +22,13 @@ public class LogicManagement {
         Current = null;
     }
 
-    public boolean contain_subscription(String arg_user_name){
+    public Subscription contain_subscription(String arg_user_name){
         for (Subscription  subscription : Subscription) {
             if (subscription.getUser_name().equals(arg_user_name)){
-                return true;
+                return subscription;
             }
         }
-        return false;
+        return null;
     }
 
 }
