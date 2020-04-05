@@ -2,6 +2,9 @@ package Service_Layer;
 import Business_Layer.Game.Game;
 import Business_Layer.Game.League;
 import Business_Layer.TeamManagement.Team;
+import Business_Layer.UserManagement.Coach;
+import Business_Layer.UserManagement.Player;
+
 import java.time.Year;
 import java.util.Date;
 import java.util.HashSet;
@@ -19,6 +22,35 @@ public class TeamGameController extends LogicManagement{
 
         return true;
     }
+
+    public boolean Register(String arg_user_to_register){
+        Business_Layer.UserManagement.Subscription current_user = this.contain_subscription(arg_user_to_register);
+        if (current_user instanceof Coach) {
+            ((Coach) current_user).getPersonalPage().addObserver(this.Current);
+            return true;
+        }
+        else if (current_user instanceof Player) {
+            ((Player) current_user).getPersonalPage().addObserver(this.Current);
+            return true;
+        }
+        else{
+            Team t = findTeam(arg_user_to_register);
+            if (t!=null){
+                t.getPersonalPage().addObserver(this.Current);
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private Team findTeam(String arg_user_to_register) {
+        for (Team t : list_team){
+            if (t.getName().equals(arg_user_to_register))
+                return t;
+        }
+        return null;
+    }
+
 
     public boolean request_create_team(String arg_name){
         // בדיקה שה-current מורשה ליצור קבוצה

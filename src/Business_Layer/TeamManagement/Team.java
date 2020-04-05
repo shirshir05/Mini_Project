@@ -1,5 +1,6 @@
 package Business_Layer.TeamManagement;
 import java.util.HashMap;
+import java.util.Objects;
 import java.util.Observable;
 import Business_Layer.Trace.*;
 import Business_Layer.UserManagement.*;
@@ -15,7 +16,7 @@ public class Team extends Observable {
     HashSet<TeamManager> list_TeamManagement;// המנהל קבוצ
     HashSet<TeamOwner> list_TeamOwner; // בעל קבוצה
     Field Field;
-    PersonalPage PersonalPage;
+    TeamPersonalPage PersonalPage;
     int statue; // 0 - off 1 - on -1 - always close
     HashMap<Integer, Pair<String,Integer>> financial;//Integer  = quarterly
 
@@ -45,7 +46,11 @@ public class Team extends Observable {
         return true;
     }
 
+    public String getName() {
+        return Name;
+    }
 
-
-
+    public PersonalPage getPersonalPage() {
+        return PersonalPage;
+    }
 }

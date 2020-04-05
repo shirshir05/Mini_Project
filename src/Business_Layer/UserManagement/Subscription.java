@@ -1,8 +1,10 @@
 package Business_Layer.UserManagement;
 
 import java.util.Objects;
+import java.util.Observable;
+import java.util.Observer;
 
-public abstract class Subscription {
+public abstract class Subscription implements Observer {
     protected String user_name;
     public String password;
     protected String name;
@@ -43,6 +45,10 @@ public abstract class Subscription {
         permissions = new Permissions();
     }
 
+    @Override
+    public void update(Observable o, Object arg) {
+
+    }
 
 
 

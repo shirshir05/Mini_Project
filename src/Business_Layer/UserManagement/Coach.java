@@ -1,12 +1,12 @@
 package Business_Layer.UserManagement;
 
-import Business_Layer.Trace.PersonalPage;
+import Business_Layer.Trace.CoachPersonalPage;
 
 public class Coach extends Subscription {
-    PersonalPage PersonalPage;
+    CoachPersonalPage PersonalPage;
     protected String qualification;
 
-    public void setPersonalPage(Business_Layer.Trace.PersonalPage personalPage) {
+    public void setPersonalPage(Business_Layer.Trace.CoachPersonalPage personalPage) {
         PersonalPage = personalPage;
     }
 
@@ -14,10 +14,11 @@ public class Coach extends Subscription {
         return PersonalPage;
     }
 
-    public Coach(String arg_user_name, String arg_password) {
+    public Coach(String arg_user_name, String arg_password, String coach_name) {
         super(arg_user_name, arg_password);
+        name=coach_name;
         // add permissions og the role
         // permissions.add_permissions(1,0)
-        PersonalPage = new PersonalPage();
+        PersonalPage = new CoachPersonalPage(coach_name);
     }
 }
