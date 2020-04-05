@@ -7,9 +7,17 @@ import java.util.Observer;
 
 public abstract class Subscription implements Observer {
     protected String user_name;
-    protected String password;
+    public String password;
     protected String name;
     protected HashSet<String> alerts;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public String getUser_name() {
         return user_name;

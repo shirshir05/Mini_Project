@@ -1,27 +1,35 @@
 package Service_Layer;
-
 import Business_Layer.UserManagement.Subscription;
-
+import Business_Layer.UserManagement.SubscriptionFactory;
 import java.util.HashSet;
 
 enum Role { Coach, Fan, Guest, Players, Referee, SystemAdministrator, TeamManager, TeamOwner, UnionRepresentative}
 
 public class LogicManagement {
 
+    SubscriptionFactory factory;
+
     // A list that keeps all the subscriptions that are currently subscribed to the system
-    /* Data base*/
     HashSet<Subscription>  Subscription;
 
     // Saves the current subscription that is currently being registered to the system
-    /* Data base*/
     Subscription Current;
 
+    /**
+     * Constructor to initialize the parameters
+     */
     public LogicManagement(){
-
         Subscription = new HashSet<>();
         Current = null;
+        factory = new SubscriptionFactory();
     }
 
+
+    /**
+     * A function is to check if there is a subscription in the system by username.
+     * @param arg_user_name
+     * @return Subscription
+     */
     public Subscription contain_subscription(String arg_user_name){
         for (Subscription  subscription : Subscription) {
             if (subscription.getUser_name().equals(arg_user_name)){
@@ -30,30 +38,39 @@ public class LogicManagement {
         }
         return null;
     }
-    protected int return_enum(String arg_role){
+
+
+    /**
+     * The function accepts a string with the role name and returns Enum.
+     * @param arg_role
+     * @return Role or null if the tole not found
+     */
+    protected Role return_enum(String arg_role){
         Role enum_role =  Role.valueOf(arg_role);
         switch (enum_role) {
             case Coach:
-                return 0;
+                return Role.Coach;
             case Fan:
-                return 1;
+                return Role.Fan;
             case Guest:
-                return 2;
+                return Role.Guest;
             case Players:
-                return 3;
+                return Role.Players;
             case Referee:
-                return 4;
+                return Role.Referee;
             case SystemAdministrator:
-                return 5;
+                return Role.SystemAdministrator;
             case TeamManager:
-                return 6;
+                return Role.TeamManager;
             case TeamOwner:
-                return 7;
+                return Role.TeamOwner;
             case UnionRepresentative:
-                return 8;
+                return Role.UnionRepresentative;
             default:
-                return -1;
+                return null;
         }
     }
+
+
 
 }

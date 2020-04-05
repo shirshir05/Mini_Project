@@ -1,6 +1,9 @@
 package Business_Layer.Trace;
 import java.util.Observable;
 
+public class PersonalPage extends Observable{
+
+
 public abstract class PersonalPage extends Observable {
     protected String name;
     public PersonalPage(String page_name){
