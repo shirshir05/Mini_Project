@@ -1,7 +1,6 @@
 package Business_Layer.UserManagement;
 import java.util.Observable;
-import java.util.Observer;
-public class Referee extends Subscription implements Observer{
+public class Referee extends Subscription{
 
     protected String qualification;
 

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/CoachPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/CoachPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/TeamPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/TeamPersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -67,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585981228582</updated>
-      <workItem from="1585981232714" duration="5009000" />
+      <workItem from="1585981232714" duration="11356000" />
     </task>
     <task id="LOCAL-00001" summary="BEFORE PULL">
       <created>1586070352724</created>
@@ -83,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586071825800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BEFORE PULL 3">
+      <created>1586073523389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586073523389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BEFORE PULL 3">
+      <created>1586073579625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586073579625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,24 +113,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BEFORE PULL" />
     <MESSAGE value="BEFORE PULL 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="BEFORE PULL 2" />
+    <MESSAGE value="BEFORE PULL 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="BEFORE PULL 3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1586085966121">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586085966121" />
+    <state x="492" y="233" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586073606423">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="492" y="233" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073606423" />
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586072185622">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586072185622" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1586073522099">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1586073578621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586073522099" />
-    <state x="354" y="58" key="MultipleFileMergeDialog" timestamp="1586070374837">
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586073578621" />
+    <state x="444" y="98" key="FileChooserDialogImpl" timestamp="1586077995267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="354" y="58" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586070374837" />
-    <state x="365" y="144" key="git4idea.merge.GitPullDialog" timestamp="1586073529628">
+    <state x="444" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586077995267" />
+    <state x="354" y="58" key="MultipleFileMergeDialog" timestamp="1586073593547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="365" y="144" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073529628" />
+    <state x="354" y="58" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073593547" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1586078001261">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586078001261" />
+    <state x="371" y="103" key="extract.method.dialog" timestamp="1586085556635">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="103" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586085556635" />
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog" timestamp="1586073586987">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073586987" />
   </component>
 </project>

@@ -1,10 +1,11 @@
 package Business_Layer.UserManagement;
 
 import Business_Layer.Trace.PlayerPersonalPage;
-
 import java.util.Date;
+import java.util.Observable;
+import java.util.Observer;
 
-public class Player extends Subscription{
+public class Player extends Subscription {
     Business_Layer.Trace.PlayerPersonalPage PersonalPage;
     String role;
     Date birthday;
@@ -24,6 +25,4 @@ public class Player extends Subscription{
         // permissions.add_permissions(1,0)
         PersonalPage=new PlayerPersonalPage(player_name);
     }
-
-
 }
