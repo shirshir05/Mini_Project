@@ -4,17 +4,31 @@ import Business_Layer.UserManagement.Subscription;
 
 import java.util.HashSet;
 
+enum role { Coach, Fan, Guest, Players, Referee, SystemAdministrator, TeamManager, TeamOwner, UnionRepresentative}
+
 public class LogicManagement {
 
+    // A list that keeps all the subscriptions that are currently subscribed to the system
+    /* Data base*/
     HashSet<Subscription>  Subscription;
+
+    // Saves the current subscription that is currently being registered to the system
+    /* Data base*/
     Subscription Current;
-    // מחזיק את האובייקט שכרגע מתנהל עם המערכת
-    // בעתיד יהיה צריך הרבה תרדים
 
     public LogicManagement(){
 
         Subscription = new HashSet<>();
         Current = null;
+    }
+
+    public boolean contain_subscription(String arg_user_name){
+        for (Subscription  subscription : Subscription) {
+            if (subscription.getUser_name().equals(arg_user_name)){
+                return true;
+            }
+        }
+        return false;
     }
 
 }
