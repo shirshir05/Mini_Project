@@ -2,9 +2,9 @@ package Business_Layer.UserManagement;
 import java.util.Observable;
 import java.util.Observer;
 
-public class systemAdministrator extends Subscription implements Observer{
+public class SystemAdministrator extends Subscription implements Observer{
 
-    public systemAdministrator(String arg_user_name, String arg_password) {
+    public SystemAdministrator(String arg_user_name, String arg_password) {
         super(arg_user_name, arg_password);
         // add permissions og the role
         // permissions.add_permissions(1,0)
