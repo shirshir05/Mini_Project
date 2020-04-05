@@ -1,5 +1,6 @@
 package Business_Layer.UserManagement;
 
+import java.util.HashSet;
 import java.util.Objects;
 import java.util.Observable;
 import java.util.Observer;
@@ -8,9 +9,16 @@ public abstract class Subscription implements Observer {
     protected String user_name;
     protected String password;
     protected String name;
+    protected HashSet<String> alerts;
 
     public String getUser_name() {
         return user_name;
+    }
+
+    public void printAlerts(){
+        for (String alert : alerts){
+            System.out.println(alert);
+        }
     }
 
     @Override
@@ -39,7 +47,7 @@ public abstract class Subscription implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-
+        this.alerts.add((String)arg);
     }
 
 
