@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/CoachPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/CoachPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/TeamPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/TeamPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1a43qL6jnV24HWj1JSuKEFdYgP7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Mini_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="" />
+      <created>1585981228582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585981228582</updated>
+      <workItem from="1585981232714" duration="5009000" />
+    </task>
+    <task id="LOCAL-00001" summary="BEFORE PULL">
+      <created>1586070352724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586070352724</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BEFORE PULL 2">
+      <created>1586071825800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586071825800</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BEFORE PULL" />
+    <MESSAGE value="BEFORE PULL 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="BEFORE PULL 2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586072185622">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586072185622" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1586073522099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586073522099" />
+    <state x="354" y="58" key="MultipleFileMergeDialog" timestamp="1586070374837">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="58" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586070374837" />
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog" timestamp="1586073529628">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073529628" />
+  </component>
+</project>
