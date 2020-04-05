@@ -3,6 +3,7 @@ import java.util.Observable;
 
 public class PersonalPage extends Observable{
 
+
     /*
     כאשר רוצים לשנות משהו בתוך הפונקציה נקרא לשיטות:
 public change(){
