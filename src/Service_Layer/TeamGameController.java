@@ -1,9 +1,7 @@
 package Service_Layer;
-
 import Business_Layer.Game.Game;
 import Business_Layer.Game.League;
 import Business_Layer.TeamManagement.Team;
-
 import java.time.Year;
 import java.util.Date;
 import java.util.HashSet;

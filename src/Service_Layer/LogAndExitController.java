@@ -1,5 +1,15 @@
 package Service_Layer;
 
+// all Subscription in system
+import Business_Layer.UserManagement.Subscription;
+import java.util.HashSet;
+
+// to function that remove all Subscription
+import Business_Layer.UserManagement.SystemAdministrator;
+
+/**
+ * This Class is responsible for connecting to the system exit system
+ */
 public class LogAndExitController extends LogicManagement{
 
 
@@ -20,7 +30,8 @@ public class LogAndExitController extends LogicManagement{
         if (role_enum == null){
             return "The role does not exist in the system.";
         }
-        Subscription.add(factory.Create(arg_user_name,arg_password, role_enum.values().length));
+
+        Subscription.add(factory.Create(arg_user_name,arg_password, role_enum.ordinal()));
         return "Subscription successfully added!";
     }
 
@@ -41,7 +52,7 @@ public class LogAndExitController extends LogicManagement{
             return "The input is empty.";
         }
         if(arg_password.length() != 5){
-            return "The password must contain exactly 5 characters.";
+            return "The password must contain exactly 5 digits.";
         }
         try {
             int password = Integer.parseInt(arg_password);
@@ -55,28 +66,56 @@ public class LogAndExitController extends LogicManagement{
     }
 
 
-
-
-    //יש לבדוק בכל שלב שה-Current עם השם משתמש והסיסמא הנכונים
-    public boolean Login(String arg_user_name, String arg_password){
-        // בדיקה אם המנוי קיים ואם כן לחבר אותו למערכת
-        //עדכון ה-Current
-        return true;
+    /**
+     * A function that allows the user to log in to the system by username and password
+     * @param arg_user_name
+     * @param arg_password
+     * @return comment print to user
+     */
+    public String Login(String arg_user_name, String arg_password){
+        if(Current != null){
+            return "Another subscription is connected to the system.";
+        }
+        Subscription Current_check = contain_subscription(arg_user_name);
+        if (Current_check != null){
+            if (!Current_check.getPassword().equals(arg_password) ){
+                return "The password does not match the username.";
+            }
+            Current =Current_check;
+            return "Login successful.";
+        }
+        return "There is no user with such a name.";
     }
 
-    public boolean Exit(String arg_user_name, String arg_password){
-        Current = null;
 
-        return true;
+    /**
+     * The function allows logging off of a user connected to the system
+     * @param arg_user_name
+     * @param arg_password
+     * @return comment print to user
+     */
+    public String Exit(String arg_user_name, String arg_password){
+        if(Current != null){
+            if(Current.equals(arg_user_name) && Current.getPassword().equals(arg_password)){
+                Current = null;
+                return "Successfully disconnected from the system.";
+            }
+        }
+        return "One of the details you entered is incorrect.";
     }
 
-    public boolean remove_all_subscription(){
-        // צריך לבדוק שהיוזר הוא מנהל מערכת
 
-
-        return true;
+    /**
+     * Only the administrator can delete all users
+     * @return
+     */
+    public String remove_all_subscription(){
+        if(!(Current instanceof SystemAdministrator)){
+            return "You are not authorized to perform this action.";
+        }
+        Subscription = new HashSet<>();
+        return "the transaction completed successfully.";
     }
-
 
 
 }
