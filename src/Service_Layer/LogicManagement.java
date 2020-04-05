@@ -4,7 +4,7 @@ import Business_Layer.UserManagement.Subscription;
 
 import java.util.HashSet;
 
-enum role { Coach, Fan, Guest, Players, Referee, SystemAdministrator, TeamManager, TeamOwner, UnionRepresentative}
+enum Role { Coach, Fan, Guest, Players, Referee, SystemAdministrator, TeamManager, TeamOwner, UnionRepresentative}
 
 public class LogicManagement {
 
@@ -22,13 +22,38 @@ public class LogicManagement {
         Current = null;
     }
 
-    public boolean contain_subscription(String arg_user_name){
+    public Subscription contain_subscription(String arg_user_name){
         for (Subscription  subscription : Subscription) {
             if (subscription.getUser_name().equals(arg_user_name)){
-                return true;
+                return subscription;
             }
         }
-        return false;
+        return null;
+    }
+    protected int return_enum(String arg_role){
+        Role enum_role =  Role.valueOf(arg_role);
+        switch (enum_role) {
+            case Coach:
+                return 0;
+            case Fan:
+                return 1;
+            case Guest:
+                return 2;
+            case Players:
+                return 3;
+            case Referee:
+                return 4;
+            case SystemAdministrator:
+                return 5;
+            case TeamManager:
+                return 6;
+            case TeamOwner:
+                return 7;
+            case UnionRepresentative:
+                return 8;
+            default:
+                return -1;
+        }
     }
 
 }
