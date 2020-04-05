@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="78e8e585-ce2d-43ad-be94-60187ed4bb73" name="Default Changelist" comment="BEFORE PULL 3">
+      <change afterPath="$PROJECT_DIR$/Test/Busnies_Servic/Service_Layer/LogAndExitControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Service_Layer/registrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Busnies_Servic/Service_Layer/registrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Game/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Game/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/ScoreTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Game/ScoreTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/RecommendationSystem/RecommendationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/RecommendationSystem/RecommendationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/TeamManagement/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/TeamManagement/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/CoachPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/CoachPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/Observer" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/Observer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/PersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/PersonalPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PlayerPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/PlayerPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/TeamPersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/Trace/TeamPersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Complaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Permissions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Permissions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Referee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/SubscriptionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/SubscriptionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/SystemAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/SystemAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/TeamManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/TeamManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/TeamOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/TeamOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/UnionRepresentative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Business_Layer/UserManagement/UnionRepresentative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Service_Layer/AlertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/ComplaintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Service_Layer/ComplaintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/LogAndExitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Service_Layer/LogAndExitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/LogicManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Service_Layer/LogicManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Busnies_Servic/Service_Layer/TeamGameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +61,7 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1a43qL6jnV24HWj1JSuKEFdYgP7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,6 +76,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
