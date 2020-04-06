@@ -1,16 +1,19 @@
 package Service_Layer;
 
-public class ComplaintController {
+import Business_Layer.Trace.PersonalPage;
+import Business_Layer.UserManagement.Complaint;
+import Business_Layer.UserManagement.SystemAdministrator;
 
-    public boolean add_complaint(String description){
-        // שליחת התראה למנהל המערכת
+import java.util.Scanner;
 
-        return true;
+public class ComplaintController extends LogicManagement{
+    Complaint complaints;
+    public void add_complaint(String description){
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Enter tour complaint:");
+        String complaint_description="";
+        complaint_description+=scanner.nextLine();
+        scanner.close();
+        complaints.updateComplaint(complaint_description);
     }
-
-
-
-
-
-
 }

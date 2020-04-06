@@ -1,8 +1,7 @@
 package Business_Layer.Game;
 
 public class Event {
-
-    String name;
+    String eventType;
 
 // להשלים את השדות
 

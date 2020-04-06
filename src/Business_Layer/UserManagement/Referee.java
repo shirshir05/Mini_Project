@@ -18,8 +18,4 @@ public class Referee extends Subscription{
         // permissions.add_permissions(1,0)
     }
 
-    @Override
-    public void update(Observable o, Object arg) {
-        //do something
-    }
 }

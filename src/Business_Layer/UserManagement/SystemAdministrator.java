@@ -17,12 +17,11 @@ public class SystemAdministrator extends Subscription implements Observer{
     }
 
     public boolean change_status_team(int status, String name_team){
-
         return true;
     }
 
     @Override
     public void update(Observable o, Object arg) {
-
+        this.alerts.add((String)arg);
     }
 }

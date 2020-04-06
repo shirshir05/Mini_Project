@@ -3,6 +3,7 @@ import Business_Layer.Game.Game;
 import Business_Layer.Game.League;
 import Business_Layer.TeamManagement.Team;
 import Business_Layer.UserManagement.Coach;
+import Business_Layer.UserManagement.Fan;
 import Business_Layer.UserManagement.Player;
 
 import java.time.Year;
@@ -23,29 +24,40 @@ public class TeamGameController extends LogicManagement{
         return true;
     }
 
-    public boolean Register(String arg_user_to_register){
+    /**
+     * This function register the current user to the page he asked to be registered to.
+     * @param arg_user_to_register is the name of the page the user wants to register to
+     * @return true if the registeration succeeded
+     */
+    public boolean FanRegister(String arg_user_to_register){
         Business_Layer.UserManagement.Subscription current_user = this.contain_subscription(arg_user_to_register);
         if (current_user instanceof Coach) {
-            ((Coach) current_user).getPersonalPage().addObserver(this.Current);
+            ((Coach) current_user).getPersonalPage().addObserver((Fan)this.Current);
             return true;
         }
         else if (current_user instanceof Player) {
-            ((Player) current_user).getPersonalPage().addObserver(this.Current);
+            ((Player) current_user).getPersonalPage().addObserver((Fan)this.Current);
             return true;
         }
         else{
             Team t = findTeam(arg_user_to_register);
             if (t!=null){
-                t.getPersonalPage().addObserver(this.Current);
+                t.getPersonalPage().addObserver((Fan)this.Current);
                 return true;
             }
         }
+        System.out.println("Wrong page name");
         return false;
     }
 
-    private Team findTeam(String arg_user_to_register) {
+    /**
+     * This function search a specific team in the system by it's name
+     * @param team_name is the name of the team
+     * @return the team object
+     */
+    private Team findTeam(String team_name) {
         for (Team t : list_team){
-            if (t.getName().equals(arg_user_to_register))
+            if (t.getName().equals(team_name))
                 return t;
         }
         return null;

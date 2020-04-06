@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="Raz first commit">
+    <list default="true" id="afd289ef-d7f0-41f3-828a-ccdfa1087435" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Game/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/Trace/PersonalPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Complaint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Complaint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Referee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Business_Layer/UserManagement/SystemAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Business_Layer/UserManagement/SystemAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/AlertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/ComplaintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/ComplaintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service_Layer/TeamGameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585981228582</updated>
-      <workItem from="1585981232714" duration="12490000" />
+      <workItem from="1585981232714" duration="23810000" />
     </task>
     <task id="LOCAL-00001" summary="BEFORE PULL">
       <created>1586070352724</created>
@@ -103,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586086127131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="befor pull">
+      <created>1586087280636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586087280636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +148,8 @@
     <MESSAGE value="BEFORE PULL 2" />
     <MESSAGE value="BEFORE PULL 3" />
     <MESSAGE value="Raz first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Raz first commit" />
+    <MESSAGE value="befor pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="befor pull" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1586085966121">
@@ -129,14 +164,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="443" y="232" width="394" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1586072185622" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1586086636305">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1586087279732">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586086636305" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586087279732" />
     <state x="444" y="98" key="FileChooserDialogImpl" timestamp="1586077995267">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="444" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586077995267" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1586095278756">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586095278756" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586095278758">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586095278758" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586095278757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586095278757" />
     <state x="354" y="58" key="MultipleFileMergeDialog" timestamp="1586073593547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -153,9 +220,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="103" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1586085556635" />
-    <state x="365" y="144" key="git4idea.merge.GitPullDialog" timestamp="1586073586987">
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog" timestamp="1586087293204">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="365" y="144" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586073586987" />
+    <state x="365" y="144" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586087293204" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586092244416">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586092244416" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Business_Layer/UserManagement/Subscription.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Service_Layer/ComplaintController.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

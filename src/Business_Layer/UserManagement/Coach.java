@@ -2,7 +2,11 @@ package Business_Layer.UserManagement;
 
 import Business_Layer.Trace.CoachPersonalPage;
 
-public class Coach extends Subscription {
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.util.Observable;
+import java.util.Observer;
+
+public class Coach extends Subscription implements Observer {
     CoachPersonalPage PersonalPage;
     protected String qualification;
 
@@ -14,11 +18,15 @@ public class Coach extends Subscription {
         return PersonalPage;
     }
 
-    public Coach(String arg_user_name, String arg_password, String coach_name) {
+    public Coach(String arg_user_name, String arg_password) {
         super(arg_user_name, arg_password);
-        name=coach_name;
         // add permissions og the role
         // permissions.add_permissions(1,0)
-        PersonalPage = new CoachPersonalPage(coach_name);
+        PersonalPage = new CoachPersonalPage(arg_user_name);
     }
+
+    @Override
+    public void update(Observable o, Object arg) {
+    }
+
 }
